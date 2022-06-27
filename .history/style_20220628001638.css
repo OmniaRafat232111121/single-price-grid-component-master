@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+  }
+  
+  :root {
+    --clr-primary-cyandark: hsl(179, 62%, 43%);
+    --clr-primary-cyanlight: rgb(74, 190, 189);
+    --clr-primary-yellow: hsl(71, 73%, 54%);
+  
+    --clr-neutral-white: hsl(204, 43%, 93%);
+    --clr-neutral-grey: hsl(218, 22%, 67%);
+  }
+  
+  html {
+    font-size: 16px;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--clr-neutral-white);
+  }
+.card{
+    display:grid;
+    
+}
